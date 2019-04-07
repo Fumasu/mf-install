@@ -5,7 +5,7 @@
 set -e
 
 scriptdir=$(dirname "$0")
-cd $scriptdir
+cd "$scriptdir"
 
 cp -v syswow64/* "$WINEPREFIX/drive_c/windows/syswow64"
 cp -v system32/* "$WINEPREFIX/drive_c/windows/system32"
