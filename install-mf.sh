@@ -22,6 +22,8 @@ overrideDll "msmpeg2adec"
 overrideDll "msmpeg2vdec"
 overrideDll "sqmapi"
 
+export WINEDEBUG="-all"
+
 wine start regedit.exe mf.reg
 wine start regedit.exe wmf.reg
 wine64 start regedit.exe mf.reg
