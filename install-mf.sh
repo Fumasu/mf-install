@@ -1,15 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
-[[ -z $WINEPREFIX ]] && echo "WINEPREFIX not set" && exit 1
+[ -z "$WINEPREFIX" ] && echo "WINEPREFIX not set" && exit 1
 
 set -e
 
 overrideDll() {
-  wine reg add 'HKEY_CURRENT_USER\Software\Wine\DllOverrides' /v $1 /d native /f >/dev/null 2>&1
-  if [ $? -ne 0 ]; then
-    echo -e "Failed to add override for $1"
-    exit 1
-  fi
+  wine reg add "HKEY_CURRENT_USER\Software\Wine\DllOverrides" /v $1 /d native /f
 }
 
 scriptdir=$(dirname "$0")
