@@ -6,3 +6,8 @@ Easily add Media Foundation support to a Wine prefix. Just set WINEPREFIX and ru
 Example:
 
 `WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/751440/pfx" ./install-mf.sh`
+
+Known working games
+
+- Monster Hunter World
+- GRIS
