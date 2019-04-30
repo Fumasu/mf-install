@@ -14,4 +14,4 @@ Example:
 - GRIS
 
 ### Resident Evil 2 and others that don't:
-See the RE2 folder for a installcab based Media Foundation workaround.
+See this repository for an installcab based Media Foundation workaround that works with Resident Evil 2 https://github.com/z0z0z/mf-installcab
