@@ -8,7 +8,10 @@ Example:
 `WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/751440/pfx" ./install-mf.sh`
 
 
-Known working games:
+### Known working games:
 
 - Monster Hunter World
 - GRIS
+
+### Resident Evil 2 and others that don't:
+See the RE2 folder for a installcab based Media Foundation workaround.
